@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6c527f9e-72ac-487e-9b4d-a226045b05dc" name="site-rb.ru" url="http://site-rb.ru">
+        <fileTransfer host="site-rb.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f09348f5-2606-4f40-9d05-1064811a90d5" name="82.146.33.157">
+        <fileTransfer accessType="SFTP" host="82.146.33.157" port="22" sshConfigId="bf9247a7-cc2b-448e-bf1d-dbb398560cf6" sshConfig="root@82.146.33.157:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6fbd3841-c431-44b4-84d3-b4f16fa11ef9" name="Арамзо" url="http://aramzomsk.tmweb.ru">
+        <fileTransfer host="aramzomsk.tmweb.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

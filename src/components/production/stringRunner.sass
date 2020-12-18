@@ -1,0 +1,30 @@
+.string-runner
+    color: white
+    display: block
+    position: absolute
+    font-size: 25px
+    text-transform: uppercase
+    white-space: nowrap
+    animation: stringRunner infinite linear
+    animation-duration: 20s
+    animation-delay: 0s
+    left: -250%
+    text-decoration: none
+    font-weight: 900
+.top
+    top: 10px
+.bottom
+    bottom: 10px
+    animation: stringRunnerReverse infinite linear
+    animation-duration: 20s
+    animation-delay: 0s
+@keyframes stringRunner
+    0%
+        left: -250%
+    100%
+        left: 110%
+@keyframes stringRunnerReverse
+    0%
+        left: 110%
+    100%
+        left: -250%
